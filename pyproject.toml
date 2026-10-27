@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyindpensim"
+version = "1.0.0"
+description = "Python port of IndPenSim, the industrial-scale fed-batch penicillin fermentation simulator"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "BSD-3-Clause" }
+authors = [{ name = "Seong-Eui Hong", email = "sehong@kopo.ac.kr" }]
+keywords = ["IndPenSim", "penicillin", "fed-batch", "fermentation", "bioprocess", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+validate = ["pandas>=1.5"]
+test = ["pytest>=7"]
+
+[project.urls]
+Source = "https://github.com/sehongkopo/pyIndPenSim"
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSE-IndPenSim"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pyindpensim = ["data/*.mat", "data/*.txt"]

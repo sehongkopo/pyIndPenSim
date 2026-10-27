@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use pyIndPenSim, please cite the software and the original IndPenSim papers listed under references."
+title: "pyIndPenSim: a Python port of the IndPenSim industrial-scale penicillin simulator"
+type: software
+version: 1.0.0
+date-released: 2026-10-27
+license: BSD-3-Clause
+repository-code: "https://github.com/sehongkopo/pyIndPenSim"
+authors:
+  - family-names: Hong
+    given-names: Seong-Eui
+    email: sehong@kopo.ac.kr
+    affiliation: "Korea Polytechnic College, Seongnam Campus, Republic of Korea"
+keywords:
+  - IndPenSim
+  - penicillin
+  - fed-batch fermentation
+  - bioprocess simulation
+references:
+  - type: article
+    authors:
+      - family-names: Goldrick
+        given-names: Stephen
+      - family-names: Ştefan
+        given-names: Andrei
+      - family-names: Lovett
+        given-names: David
+      - family-names: Montague
+        given-names: Gary
+      - family-names: Lennox
+        given-names: Barry
+    title: "The development of an industrial-scale fed-batch fermentation simulation"
+    journal: "Journal of Biotechnology"
+    volume: 193
+    start: 70
+    end: 82
+    year: 2015
+    doi: 10.1016/j.jbiotec.2014.10.029
+  - type: article
+    authors:
+      - family-names: Goldrick
+        given-names: Stephen
+      - family-names: Duran-Villalobos
+        given-names: Carlos A.
+      - family-names: Jankauskas
+        given-names: Karolis
+      - family-names: Lovett
+        given-names: David
+      - family-names: Farid
+        given-names: Suzanne S.
+      - family-names: Lennox
+        given-names: Barry
+    title: "Modern day monitoring and control challenges outlined on an industrial-scale benchmark fermentation process"
+    journal: "Computers & Chemical Engineering"
+    volume: 130
+    start: 106471
+    year: 2019
+    doi: 10.1016/j.compchemeng.2019.05.037
